@@ -120,6 +120,8 @@ width: 30px;
   height: 100%;
   width: 100%;
   background-color: rgba(0,0,0,0.5);
+  /* you can use display grid or display flex here to enable text-align and align-content rules. Ignore what i said earlier about targeting the parent element, it looks like you can target the element directly. */
+  display: grid;
   text-align: center;
   align-content: center;
   padding: 1rem;
@@ -201,10 +203,12 @@ footer {
   text-align: right;
 }
 @media screen and (min-width: 500px) {
+  /* we need to set the display: grid; rules here to apply the grid-template-columns rule!  `.all-photo .all-design` will look for elements with a class of all-design, that are nested inside of elements with a class of all-photo, so a comma has been added to target the 2 seperately (the comma means apply this rule to all-photos and to all-design)  */
   .hero{
     grid-template-columns: 1fr 2fr;
   }
-  .all-photo .all-design {
+  .all-photo, .all-design {
+    display: grid;
     grid-template-columns: 1fr 1fr;
   }
 }
