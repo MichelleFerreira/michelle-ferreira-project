@@ -15,11 +15,13 @@
   <body>
     <nav class="nav">
       <div class="logo">MICHELLE FERREIRA</div>
-      <button type="button" name="hamburger" class="btn hamburger">
-        <div class="menu-line"></div>
-        <div class="menu-line"></div>
-        <div class="menu-line"></div>
-      </button>
+      <div class="button-container">
+        <button type="button" name="hamburger" class="btn hamburger">
+          <div class="menu-line"></div>
+          <div class="menu-line"></div>
+          <div class="menu-line"></div>
+        </button>
+      </div>
       <ul class="nav-list">
         <li class="nav-item">
           <a class="nav-link" href="#about">About Me</a>
@@ -35,24 +37,131 @@
         </li>
       </ul>
     </nav>
-    <header class="hero">
-      <div class="pic-container"><img id="about" class="michelle-pic" src="images/MF.jpg" alt="Michelle Ferreira photo"/></div>
-      <h1 class="hero-head">Michelle Ferreira great is a Canadian Designer, living and working in Toronto, Ontario. She's currently working at SickKids, the Hospital for Sick Children, as a Graphic Designer. Her passions also include photography, interior design and arts and crafts.</h1>
-    </header>
-      <p class="body-text">Michelle graduated from Seneca College in Ontario, where she studied Graphic Design. She specializes in print with a particular interest in branding and editorial design. In addition to her full-time engagement, she is available for collaborations and commissions.</p>
-      <h2 id="photography" class="body-head">PHOTOGRAPHY</h2>
-      <img src="images/photography/mel.jpg" alt="mel portrait">
-      <img src="images/photography/emma.jpg" alt="emma portrait">
-      <img src="images/photography/ethan.jpg" alt="ethan portrait">
-      <img src="images/photography/oldmen.jpg" alt="old men sitting">
-      <img src="images/photography/ostrich.jpg" alt="ostriches">
-      <h2 id="design" class="body-head">DESIGN</h2>
-      <img src="" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
-      <h2 id="contact" class="body-head">CONTACT</h2>
 
+    <header id="about" class="hero">
+      <div class="pic-container"><img class="michelle-pic" src="images/MF.jpg" alt="Michelle Ferreira photo"/></div>
+      <h1 class="hero-head">Michelle Ferreira is a Canadian Designer, living and working in Toronto, Ontario. She's currently working at SickKids, the Hospital for Sick Children, as a Graphic Designer. Her passions also include photography, interior design and arts and crafts.</h1>
+    </header>
+
+    <main>
+    <p class="body-text">Michelle graduated from Seneca College in Ontario, where she studied Graphic Design. She specializes in print with a particular interest in branding and editorial design. In addition to her full-time engagement, she is available for collaborations and commissions.</p>
+
+    <section id="photography" class="photography-section">
+
+      <h2 class="body-head">PHOTOGRAPHY</h2>
+      <div class="all-photo">
+      <figure class="photo">
+        <img src="images/photography/mel.jpg" alt="Melanie portrait">
+        <figcaption class="photo-caption">Portrait of a Girl in the Woods</figcaption>
+      </figure>
+
+      <figure class="photo">
+        <img src="images/photography/emma.jpg" alt="Emma portrait">
+        <figcaption class="photo-caption">Portrait of a Mother and Daughter</figcaption>
+      </figure>
+
+      <figure class="photo">
+        <img src="images/photography/ethan.jpg" alt="Ethan portrait">
+        <figcaption class="photo-caption">Portrait of a Boy in Playing in the Leaves</figcaption>
+      </figure>
+
+      <figure class="photo">
+        <img src="images/photography/oldmen.jpg" alt="Old men sitting">
+        <figcaption class="photo-caption">Two Portuguese Men Keeping Cool in the Shade</figcaption>
+      </figure>
+
+      <figure class="photo">
+        <img src="images/photography/horse.jpg" alt="Man and his horse">
+        <figcaption class="photo-caption">A Man and His Horse in Portugal</figcaption>
+      </figure>
+
+      <figure class="photo">
+        <img src="images/photography/beach.jpg" alt="Girl on the beach">
+        <figcaption class="photo-caption">Girl on the Beaches of Portugal</figcaption>
+      </figure>
+
+      <figure class="photo">
+        <img src="images/photography/ostrich.jpg" alt="Ostriches">
+        <figcaption class="photo-caption">Curious Ostriches in Portugal</figcaption>
+      </figure>
+    </div>
+    <section</>
+
+    <section id="design" class="design-section">
+
+      <h2 class="body-head">DESIGN</h2>
+
+      <div class="all-design">
+      <figure class="design">
+        <img src="images/design/portfolio1.jpg" alt="GFCC annual report">
+        <figcaption class="design-caption">Interactive Annual Report for the Garron Family Cancer Centre</figcaption>
+      </figure>
+
+      <figure class="design">
+        <img src="images/design/portfolio2.jpg" alt="DOP annual report">
+        <figcaption class="design-caption">Interactive Annual Report for the Department of Paediatrics</figcaption>
+      </figure>
+
+      <figure class="design">
+        <img src="images/design/portfolio3.jpg" alt="SickKids pocket folder">
+        <figcaption class="design-caption">Pocket Folder</figcaption>
+      </figure>
+
+      <figure class="design">
+        <img src="images/design/portfolio4.jpg" alt="Display case signage">
+        <figcaption class="design-caption">Display Case Signage for Historical Archives</figcaption>
+      </figure>
+
+      <figure class="design">
+        <img src="images/design/portfolio5.jpg" alt="Newsletters">
+        <figcaption class="design-caption">SickKids' Internal Newsletters</figcaption>
+      </figure>
+
+      <figure class="design">
+        <img src="images/design/portfolio6.jpg" alt="Infographics">
+        <figcaption class="design-caption">Infographics</figcaption>
+      </figure>
+
+      <figure class="design">
+        <img src="images/design/portfolio7.jpg" alt="RNC logo">
+        <figcaption class="design-caption">Logo for the Registered Nurses' Council</figcaption>
+      </figure>
+
+      <figure class="design">
+        <img src="images/design/portfolio8.jpg" alt="AIM logo">
+        <figcaption class="design-caption">Logo for Artificial Intelligence in Medicine</figcaption>
+      </figure>
+
+      <figure class="design">
+        <img src="images/design/portfolio9.jpg" alt="Wedia logo">
+        <figcaption class="design-caption">Logo for Wedia Contracting</figcaption>
+      </figure>
+    </div>
+
+    <section/>
+
+    <section id="contact" class="contact-section">
+      <h2 class="body-head">CONTACT</h2>
+      <div class="container">
+        <form action="action_page.php">
+
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+          <input type="submit" value="Submit">
+
+        </form>
+      </div>
+
+    <section/>
+
+  </main>
     <footer>
       <a href="#top">Back to Top</a>
       <p class="copyright">Copyright 2019</p>
